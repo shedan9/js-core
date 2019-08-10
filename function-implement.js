@@ -9,6 +9,7 @@ Function.prototype._call = function (context, ...arg) {
 };
 
 // --test--
+//testtest
 function test(gender, age) {
   console.log(`${this.name}的性别是${gender}，年龄${age}`);
 }
