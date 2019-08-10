@@ -8,8 +8,8 @@ Function.prototype._call = function (context, ...arg) {
   return res;
 };
 
-// --test--
-//testtest
+// --test1234--
+//testtest1234
 function test(gender, age) {
   console.log(`${this.name}的性别是${gender}，年龄${age}`);
 }
@@ -30,6 +30,6 @@ Function.prototype._bind = function (context) {
   };
 };
 
-// --test--
+// --test1234--
 const newTest = test._bind(obj);
 newTest('女', 20);
